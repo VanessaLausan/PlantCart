@@ -30,11 +30,11 @@ class MainPage : AppCompatActivity() {
        // val intent2 = Intent(this, MainActivity::class.java)
         //startActivity(intent2)
    // }
-   // private fun search() {
-    //    val uri = Uri.parse("https://www.google.com/search?q=succulent+plants&rlz=1C1CHBF_enPH882PH882&sxsrf=ALeKk02vwi2ApuKiVEKsONVxlFmmHrTfSg:1604676266997&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjco_72nO7sAhXUKqYKHebeAHEQ_AUoAXoECCsQAw&biw=1920&bih=880")
-     //   val intent3 = Intent(Intent.ACTION_VIEW, uri)
-     //   startActivity(intent3)
-    //}
+    private fun search() {
+        val uri = Uri.parse("https://www.google.com/search?q=succulent+plants&rlz=1C1CHBF_enPH882PH882&sxsrf=ALeKk02vwi2ApuKiVEKsONVxlFmmHrTfSg:1604676266997&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjco_72nO7sAhXUKqYKHebeAHEQ_AUoAXoECCsQAw&biw=1920&bih=880")
+        val intent3 = Intent(Intent.ACTION_VIEW, uri)
+        startActivity(intent3)
+    }
     //private fun settings() {
      //   val uri = Uri.parse("content://settings/apps/1")
      //   val intent = Intent(Intent.ACTION_VIEW, uri)
