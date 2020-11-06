@@ -16,7 +16,7 @@ class MainPage : AppCompatActivity() {
 
         //login button
         findViewById<ImageButton>(R.id.imageButton12).setOnClickListener { backbutton () }
-       // findViewById<Button>(R.id.goToShop).setOnClickListener { search () }
+        findViewById<Button>(R.id.goToShop).setOnClickListener { search () }
         //findViewById<ImageButton>(R.id.imageButton6).setOnClickListener { settings () }
         findViewById<ImageButton>(R.id.imageButton13).setOnClickListener { share () }
     }
