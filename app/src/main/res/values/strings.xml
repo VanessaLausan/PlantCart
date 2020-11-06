@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PlantCart</string>
+    <string name="Welcome">welcome</string>
+    <string name="welcomes">Welcome</string>
+    <string name="cart">cart</string>
+    <string name="to">to</string>
+    <string name="plant">Plant</string>
+    <string name="Login">Login to Plant Cart</string>
+    <string name="username">Username</string>
+    <string name="loginButtona">Login</string>
+    <string name="gotoshop">Go to Shop</string>
+    <string name="gallery">gallerybutton</string>
+    <string name="plantpot">plant</string>
+    <string name="pinkplant">Pink plant</string>
+    <string name="brownpot">Brown pot</string>
+    <string name="soGreen">clearwhite</string>
+    <string name="bigpot">Big pot</string>
+    <string name="signup">Enter Username</string>
+    <string name="home">Home Page</string>
+    <string name="search">Browse</string>
+</resources>
