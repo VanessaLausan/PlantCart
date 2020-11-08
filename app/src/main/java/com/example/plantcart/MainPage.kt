@@ -14,7 +14,6 @@ class MainPage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_page)
 
-        //login button
         findViewById<ImageButton>(R.id.backbtn).setOnClickListener { backbutton() }
         findViewById<Button>(R.id.browsebtn).setOnClickListener { search() }
         findViewById<ImageButton>(R.id.imagebtn).setOnClickListener { Image() }

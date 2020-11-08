@@ -13,7 +13,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         //login button
-        //findViewById<Button>(R.id.button2).setOnClickListener{ loginButton()}
         findViewById<Button>(R.id.loginbtn).setOnClickListener {
             val usernameText = findViewById<EditText>(R.id.buttonlogin)
             val username = usernameText.text.toString();
