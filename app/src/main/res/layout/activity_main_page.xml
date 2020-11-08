@@ -8,12 +8,13 @@
     tools:context=".MainPage">
 
     <Button
-        android:id="@+id/goToShop"
+        android:id="@+id/browsebtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="@string/gotoshop"
         android:text="@string/search"
-        app:backgroundTint="#248828"
+        android:textColor="#009688"
+        app:backgroundTint="#DCBBBB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,10 +25,10 @@
         android:id="@+id/imageButton3"
         android:layout_width="164dp"
         android:layout_height="187dp"
-        android:layout_marginTop="156dp"
+        android:layout_marginTop="152dp"
         android:contentDescription="@string/pinkplant"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintHorizontal_bias="0.125"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/plan13" />
@@ -70,21 +71,10 @@
         app:srcCompat="@drawable/pickt" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="67dp"
-        android:layout_height="57dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.046"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976"
-        app:srcCompat="@android:drawable/ic_menu_camera" />
-
-    <ImageButton
-        android:id="@+id/imageButton12"
+        android:id="@+id/backbtn"
         android:layout_width="63dp"
         android:layout_height="42dp"
+        android:contentDescription="@string/backbuttontomainpage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.071"
@@ -107,24 +97,53 @@
         app:layout_constraintVertical_bias="0.022" />
 
     <ImageButton
-        android:id="@+id/imageButton13"
+        android:id="@+id/settingsbtn"
         android:layout_width="64dp"
         android:layout_height="58dp"
         android:layout_marginStart="312dp"
         android:layout_marginBottom="16dp"
+        android:contentDescription="@string/settings"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@android:drawable/ic_menu_manage" />
 
     <ImageButton
-        android:id="@+id/imageButton14"
+        android:id="@+id/sharebtn"
         android:layout_width="63dp"
         android:layout_height="57dp"
+        android:contentDescription="@string/button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.974"
         app:srcCompat="?attr/actionModeShareDrawable" />
+
+    <ImageButton
+        android:id="@+id/imagebtn"
+        android:layout_width="64dp"
+        android:layout_height="57dp"
+        android:contentDescription="@string/button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <Button
+        android:id="@+id/messagebtn"
+        android:layout_width="179dp"
+        android:layout_height="49dp"
+        android:text="@string/messages"
+        android:textColor="#009688"
+        android:textSize="12sp"
+        app:backgroundTint="#DCBBBB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

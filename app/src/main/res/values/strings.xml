@@ -18,4 +18,10 @@
     <string name="signup">Enter Username</string>
     <string name="home">Home Page</string>
     <string name="search">Browse</string>
+    <string name="password">Enter Password</string>
+    <string name="Wifi">Open Wifi</string>
+    <string name="messages">Message Seller</string>
+    <string name="backbuttontomainpage">back button to main page</string>
+    <string name="settings">icon</string>
+    <string name="button">justbutton</string>
 </resources>
